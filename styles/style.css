@@ -1,1 +1,43 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/* New Color Palette:
+* Lightest (Text):         #f1faee      (text, contrast with dark)
+* Dark dark (Primary):    #457b9d      
+* Light blue (Secondary): #a8dadc      (canvas background)
+* Red (Accent):  #e63946
+*/
+
+.navbar-brand{
+    font-family: 'protest strike'; /*change the font name for what you have*/
+    font-size: 2.25rem;
+}
+
+.bg-info {
+    background-color: #a8dadc !important; /* Light green for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #457b9d;            /* Dark green for brand name & nav links for visibility */
+}
+
+.btn-info {
+    color: #f1faee;            /* Lightest shade for text on info button for contrast */
+    background-color: #a8dadc; /* Light green for button background */
+    border-color: #457b9d;     /* Dark green for button border */
+}
+
+.btn-primary {
+    color: #f1faee;            /* Lightest shade for text */
+    font-size: 150%;
+    background-color: #457b9d; /* Dark green for primary button background */
+    border-color: #e63946;     /* Reddish-brown for border to use as accent */
+    border-width: thick;
+}
+
+body {
+    background-color: #f2fbf2; /* Lightest shade for body background to follow the 60% rule */
+}
